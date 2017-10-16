@@ -23,10 +23,8 @@ function onReady () {
       checkbox.type = "checkbox";
       newLi.textContent = toDo.title;
 
-
       todoList.appendChild(newLi);
       newLi.appendChild(checkbox);
-      newLi.appendChild(deleteButton);
 
     });
   }
